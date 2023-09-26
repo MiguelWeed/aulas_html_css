@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 div {
     border: 4px dotted #00f;
     width: fit-content;
@@ -5,7 +9,33 @@ div {
     padding-top: 10px;
     padding-right: 40px;
     padding-bottom: 20px;
+    /* serve para todos os lados */
+    padding: 20px;
+    /* serve para tio e botton depois right e left */
+    padding: 30px 20px;
+    /* serve para top depois right e left depois bottom */
+    padding: 30px 25px 55px;
+    /* top depois right depois bottom depois left */
+    padding: 49px 50px 51px 55px;
     padding-left: 40px;
     padding-inline: 50px;
     padding-block: 30px;
+}
+
+h1 {
+    border: 1px solid red;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline: auto;
 }
