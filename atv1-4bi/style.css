@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+div {
+    border: 1px dotted blue;
+    width: fit-content;
+    font-size: 15px;
+    padding: 26px;
+}
+
+div {
+    border: 12px red;
+}
+
+h1{
+    border: 5px solid blue;
+}
+
+.algum{
+    border: 50px darkblue;
+    margin: 20px;
+    height: 27px;
+    width: 34px;
+}
+
+.alguma{
+    border: 30px darkcyan;
+    margin: 41px;
+    height: 37px;
+    width: 85px;
+}
+
+.alguns{
+    border: 10px darkgoldenrod;
+    margin: 11px;
+    height: 37px;
+    width: 95px;
+}
+
+.algumes{
+border: 30px darkorange;
+margin: 61px;
+height: 57px;
+width: 35px;
+}
